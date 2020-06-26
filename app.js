@@ -3,10 +3,8 @@ function ins(num) {
 }
 function equal() {
     var sol = document.getElementById("in").value;
-    if (Number(sol)) {
+    if ((sol)) {
         document.getElementById("display").value = eval(sol);
-    }else{
-        document.getElementById("display").value = "error";
     }
 }
 function back() {
